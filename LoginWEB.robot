@@ -7,16 +7,16 @@ Suite Teardown     Close All Browsers
 
 *** Variables ***
 ${browser}          chrome
-${url_JEDI}         https://www.gme.ktb.co.th/jedi/login
-${Path}             D:/JEDI/Robot/Login/image
+${url_JEDI}         //(website)
+${Path}             //(path save Capture) 
 ${title_JEDI}       J E D I : Joint Exchange Development Initiative
 ${input_user}       id=txtUsername
 ${input_pass}       id=txtPassword
 ${btn_login}        id=btnLogin
-${username_fail}        customer056
-${password_fail}        password001
-${username_success}     customer006
-${password_success}     password
+${username_fail}        //userFailed
+${password_fail}        //PasswordFiled
+${username_success}     //userPassed
+${password_success}     //passwordPassed
 ${no_password}
 ${no_user}
 
